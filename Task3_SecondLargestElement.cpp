@@ -29,8 +29,7 @@ int main() {
     int n; // number of element
     cin >> n;
     int arr[n];
-    string s;
-    s.size();
+
     for(int i=0; i<n; i++)
         cin >> arr[i];
     cout << secondLargest(arr, n);
